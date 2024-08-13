@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    primary: 'green',
+    primary: 'blue',
     gray: 'slate',
     footer: {
       bottom: {
@@ -10,25 +10,25 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Capital Check In - Handbook'
   },
   header: {
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      alt: 'Capital Check In Logo',
+      dark: 'logo_black_capital_check_in.png',
+      light: 'logo_white_capital_check_in.png'
     },
     search: true,
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
+      'to': 'https://github.com/Capital-Check-In/capital-check-in-handbook',
       'target': '_blank',
       'aria-label': 'Docs template on GitHub'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: 'Copyright © 2024',
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-nuxtdotjs',
@@ -39,7 +39,7 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-discord',
       'to': 'https://discord.com/invite/ps2h6QT',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
+      'aria-label': 'Capital Check In on Discord'
     }, {
       'icon': 'i-simple-icons-x',
       'to': 'https://x.com/nuxt_js',
@@ -47,9 +47,9 @@ export default defineAppConfig({
       'aria-label': 'Nuxt on X'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/Capital-Check-In',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Capital Check In on GitHub'
     }]
   },
   toc: {
@@ -60,17 +60,7 @@ export default defineAppConfig({
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
-        icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank'
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        to: 'https://github.com/Capital-Check-In/capital-check-in-handbook',
         target: '_blank'
       }]
     }
