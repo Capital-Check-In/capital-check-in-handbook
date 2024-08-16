@@ -1,19 +1,5 @@
-# For more details, see https://containers.dev/guide/dependabot
 version: 2
 updates:
-  # Fetch and update latest `devcontainers` pkgs
-  - package-ecosystem: "devcontainers"
-    directory: "/"
-    schedule:
-      interval: weekly
-    reviewers:
-      - ivansotelo
-    assignees:
-      - ivansotelo
-    commit-message:
-      prefix: fix
-      prefix-development: chore
-      include: scope
   # Fetch and update latest `npm` packages
   - package-ecosystem: npm
     directory: '/'
