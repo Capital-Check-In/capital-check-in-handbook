@@ -1,27 +1,20 @@
-import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
+import type { Config } from "tailwindcss";
 
-export default <Partial<Config>>{
+const config: Config = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['DM Sans', ...defaultTheme.fontFamily.sans]
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors: {
-        blue: {
-          50: '#edfaff',
-          100: '#d6f2ff',
-          200: '#b5eaff',
-          300: '#83dfff',
-          400: '#48cbff',
-          500: '#1eacff',
-          600: '#068eff',
-          700: '#007aff',
-          800: '#085dc5',
-          900: '#0d519b',
-          950: '#0e315d'
-        }
-      }
-    }
-  }
-}
+    },
+  },
+  plugins: [],
+};
+export default config;
