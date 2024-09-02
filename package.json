@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.21",
-    "@iconify-json/simple-icons": "^1.1.114",
+    "@iconify-json/simple-icons": "^1.2.1",
     "@nuxt/content": "^2.13.1",
     "@nuxt/fonts": "^0.7.2",
     "@nuxt/image": "^1.7.0",
